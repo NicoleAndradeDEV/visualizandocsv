@@ -1,0 +1,32 @@
+.custom-file-input {
+    /* Adicione aqui os estilos personalizados para o botão de escolher arquivo */
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgb(110, 41, 41);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-file-input:hover {
+    background-color: #45a049;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
