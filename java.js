@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 tableContainer.appendChild(table);
             };
 
-            reader.readAsText(file, 'UTF-8'); // Defini como utf-8 em ambos, mas mesmo assim não reconhece os caracteres especiais.
+            reader.readAsText(file, 'UTF-8', 'PT-BR'); // Defini como utf-8 em ambos, mas mesmo assim não reconhece os caracteres especiais.
         } else {
             alert('Por favor, selecione um arquivo CSV.');
         }
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const csvData = tableContainer.innerText;
         alert('Clique em escolher arquivo novamente para visualizar um novo arquivo!\n\n');
     
-    }
+    } // ALERTA 
 
     function createTable(csvData) {
         const table = document.createElement('table');
